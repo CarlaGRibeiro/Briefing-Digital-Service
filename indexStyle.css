@@ -1,0 +1,265 @@
+:root {
+    --corDestaque: #F9A826;
+    --corDestaque2: #FAC225;
+    --corFonte: #FA6125;
+    --corFundoA: #FFC800;
+    --corFundo: #7A6A50;
+    --corFundo2: #504A41;
+    --detalhe: --
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    background-image: url("./img/4.jpg");
+    background-size: cover;
+
+
+}
+
+header {
+    width: 100%;
+    background-image: url("./img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    margin-bottom: 5px;
+
+}
+
+#marca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    font-size: 100%;
+}
+
+.destaque1 {
+    padding: 0.5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2rem;
+
+}
+
+.destaque1>h2 {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+#slogan1 {
+    font-size: 1em;
+    color: #FA6125;
+    margin-bottom: 0px;
+}
+
+
+h4 {
+
+    width: 100%;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--corFundo2);
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+}
+
+#termos,
+#termos>a {
+    text-align: right;
+    margin: 10px;
+
+
+}
+
+#termos>a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid var(--corFonte);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+form {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+div>fieldset>legend {
+    font-size: 1em;
+    margin-top: 12px;
+    margin-bottom: 1px;
+
+}
+
+
+#textarea {
+    resize: none;
+}
+
+#submit {
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    color: var(--corFonte);
+    font-weight: 700;
+
+}
+
+#amostras {
+    width: 80%;
+    height: 80%;
+    margin: 3px auto;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1%;
+    border-top: 5px solid var(--corDestaque2);
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 0px 2px 10px black;
+color:white;
+
+
+}
+
+.sections {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+/*primeira sessão*/
+
+.adress-contact {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.whats-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats-contact>a {
+    text-decoration: none;
+
+}
+
+
+
+.whats-contact>a>img {
+    width: 40%;
+    height: 30%;
+}
+
+.whats-contact>a{
+    color:white;
+}
+/*segunda sessão*/
+.info-social {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons>a>img {
+    width: 70%;
+    height: 80%;
+}
+
+/*terceira sessão*/
+
+
+.assignment>p>a {
+    text-decoration: none;
+
+}
+
+.assignment>a {
+    text-decoration: none;
+
+}
+
+.assignment>p>a>img {
+    width: 6%;
+    height: 6%;
+}
+
+
+.termosFooter{
+        text-align: center;
+
+}
+
+#termosFooter>a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid var(--corFonte);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+
+.pagge{
+    text-align: center;
+    color:white;
+    margin-top:3%;
+}
+
+#imgPage{
+    width:50%;
+margin: 0% 25%;
+ }
+.site{
+    margin-top:1%;
+}
+.site>a{
+    text-decoration:none;
+    color:white;
+}

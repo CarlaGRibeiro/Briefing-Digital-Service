@@ -1,0 +1,154 @@
+:root {
+    --corDestaque: #F9A826;
+    --corDestaque2: #FAC225;
+    --corFonte: #FA6125;
+    --corFundoA: #FFC800;
+    --corFundo: #7A6A50;
+    --corFundo2: #504A41;
+    --detalhe: --
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    background-image: url("./img/4.jpg");
+    background-size: cover;
+
+
+}
+
+
+
+header {
+    width: 100%;
+    background-image: url("./img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    margin-bottom: 5px;
+
+}
+
+#marca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    font-size: 100%;
+}
+
+#marca>p {
+    margin: 1%;
+}
+
+.destaque1 {
+    padding: 0.5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2rem;
+
+}
+
+.destaque1>h2 {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+#slogan1 {
+    font-size: 1em;
+    color: #FA6125;
+    margin-bottom: 0px;
+}
+
+
+h4 {
+
+    width: 100%;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--corFundo2);
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+#page1{
+    text-align: right;
+    
+}
+
+#page1>a {
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+border: 2px solid var(--corFonte);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.acordo {
+    margin: 10px 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    size: 1em;
+    text-align: justify;
+}
+
+p.item {
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.recuo {
+    width: 85%;
+    margin-left: 100px;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+.assin {
+    background-color: var(--corFonte);
+    text-align: right;
+}
+
+
+@media(max-width: 800px ){
+    .recuo {
+    width: 80%;
+    margin-left:20px;
+}
+}
+
